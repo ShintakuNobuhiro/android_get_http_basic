@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(URL... url) {
             String result = "";
-            String token = "9566714722251566337d4a4701de6153";
             HttpURLConnection urlConnection = null;
             try {
                 urlConnection = (HttpURLConnection) url[0].openConnection();
